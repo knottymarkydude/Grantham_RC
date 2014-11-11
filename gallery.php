@@ -22,7 +22,7 @@
                 <!-- Navigation -->
                 <?php include 'common/navbar.php'; ?>
                 <!-- Navigation / End -->
-
+    
             </div>
 
 
@@ -33,7 +33,7 @@
 
                 <!-- Page Title -->
                 <div id="page-title">
-                    <h2>Gallery</h2>
+                    <h2>Gallery </h2>
                 </div>
                 <!-- Page Title / End -->
 
