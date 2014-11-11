@@ -103,7 +103,7 @@
                             <div>
                                 <h4><a href="news/news4.php">Weekends Events commencing 24th May</a></h4>
                                 <p>Events happening on this weekend include Liverpool Marathon,Deeping 10k, 
-                                    Edinburgh Marathon and Leiden Marathon... See the news
+                                    Edinburgh Marathon and Leiden Marathon.... See the news
                                     <a href="news/news4.php">here</a></p>
                             </div>
                         </div>
