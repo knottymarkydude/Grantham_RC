@@ -41,9 +41,16 @@
                         <div class="headline no-margin"><h4>News</h4></div>
 
                         <div class="entry">
+                            <span class="meta"><strong>18 Oct</strong><br><small>2014</small></span>
+                            <div>
+                                <h4><a href="race-reports/rr34.php">Ascot Park Hotel Southland Marathon, NZ</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="entry">
                             <span class="meta"><strong>12 Oct</strong><br><small>2014</small></span>
                             <div>
-                                <h4><a href="race-reports/rr33.php">Perkins Great Eastern Run 2014 Race Reports</a></h4>
+                                <h4><a href="race-reports/rr33.php">Perkins Great Eastern Run, Peterborough</a></h4>
                             </div>
                         </div>
                         
@@ -98,24 +105,25 @@
                                     St Catherine’s Road, Grantham.... See the news <a href="news/news5.php">here</a></p>
                             </div>
                         </div>
-                        <div class="entry">
+                        
+                        <!--<div class="entry">
                             <span class="meta"><strong>WC 24 May</strong><br><small>2014</small></span>
                             <div>
                                 <h4><a href="news/news4.php">Weekends Events commencing 24th May</a></h4>
                                 <p>Events happening on this weekend include Liverpool Marathon,Deeping 10k, 
-                                    Edinburgh Marathon and Leiden Marathon.... See the news
+                                    Edinburgh Marathon and Leiden Marathon... See the news
                                     <a href="news/news4.php">here</a></p>
                             </div>
-                        </div>
+                        </div>-->
 
-                        <div class="entry">
+                        <!--<div class="entry">
                             <span class="meta"><strong>May</strong><br><small>2014</small></span>
                             <div>
                                 <h4><a href="docs/EnglandAthleticsCert2014.pdf">England Athletics Affiliation</a></h4>
                                 <p>We have our 2014/15 Affiliation for England Athletics.. See the certificate
                                     <a href="docs/EnglandAthleticsCert2014.pdf">here</a></p>
                             </div>
-                        </div>
+                        </div>-->
 
                         <!--<div class="entry">
                             <span class="meta"><strong>April</strong><br><small>2014</small></span>
@@ -249,7 +257,7 @@
                 <div class="span6">
 
                     <div class="headline"><h4>Our Club</h4></div>
-                    <p><img class="thumbnail" src="images/race-reports/Ashby_Finish_2014_large.jpg" alt="Grantham RC" /> <p>Grantham Running Club is a road and cross country running club for all abilities of adults. 
+                    <p><img class="thumbnail" src="images/race-reports/rr33800.jpg" alt="Grantham RC" /> <p>Grantham Running Club is a road and cross country running club for all abilities of adults. 
                         Since forming in 2010, we have been a vibrant, growing club with almost 100 members and six UKA 
                         trained coaches. We hope that joining not only improves the times and enjoyment from your running 
                         but also introduces you to new friends and the activities we take part in. In addition to training together 

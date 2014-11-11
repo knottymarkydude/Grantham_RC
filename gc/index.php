@@ -48,40 +48,55 @@
 
                         <p>Profits are donated to <a href="http://www.kestevenrda.co.uk/">Kesteven RiDeAbility</a>, a fantastic organisation operating locally at Hough on the Hill, offering disabled adults and children the opportunity to experience equestrian disciplines such as Dressage, Showjumping and Endurance, all in a welcoming and supportive atmosphere.</p>
 
-                        <p>With free day entry to the Horse Trials and a bottle of specially commissioned commemorative Trail Ale places are obviously very sought after. So enter today via Runners World or download the <a href="../docs/Grantham_Cup_2015.pdf">Entry form</a>.</p>
+                        <p>With free day entry to the Horse Trials and a bottle of specially commissioned commemorative Trail Ale places are obviously very sought after. So enter today via <a href="http://www.runnersworld.co.uk/events/viewevent.asp?sp=&v=2&EN=87059&ms=" target="_blank">Runners World</a> or download the <a href="../docs/Grantham_Cup_2015.pdf">Entry form</a>.</p>
                     </div>
                     <div class="span2">
-                        <button type="button" class="btn btn-large" id="form-dl">Postal Entry Form</button>
+                        <div class="widget-alt">
+                            <a href="http://www.runnersworld.co.uk/events/viewevent.asp?sp=&v=2&EN=87059&ms=" target="_blank">
+                                <img class="thumbnail" src="../images/events/gc/rw200.jpg" align="left" alt="Enter at Runners World" />
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-large" id="form-dl">Download Postal Entry Form</button>
+                        <div class="widget-alt">
+                            <a href="http://www.kestevenrda.co.uk/" target="_blank">
+                                <img class="thumbnail" src="../images/events/gc/kesteven_reliability.jpg" alt="Supporting Kesteven RiDeAbility" />
+                            </a>
+                        </div>
+                        <div class="widget-alt">
+                            <a href="http://www.runningclubs.org.uk/" target="_blank">
+                                <img class="thumbnail" src="../images/events/gc/arc.png" alt="ARC - Freedom to run" title="ARC is the fully democratic and accountable governing body for running clubs, providing what they need at lower cost and without unnecessary regulation or paper heavy systems" />
+                            </a>
+                        </div>
+
+
                     </div>
-                    <!--<div class='widget-alt'>
-                        <a href="http://www.runnersworld.co.uk/events/viewevent.asp?sp=&v=2&EN=81348&ms=" target="_blank">
-                            <img class="thumbnail" src="../images/events/gc_enter_rw.jpg" align="left" alt="Enter at Runners World" />
-                    </div>-->
                 </div>
+
             </div>
-            <!-- Wrapper / End -->
-            <!-- Footer   -->
-            <?php include '../common/footer.php'; ?>
-            <!-- Javascript -->
-            <?php include '../common/js.php'; ?>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    var str = location.href.toLowerCase();
-                    $('#nav li a').each(function () {
-                        if (str.indexOf(this.href.toLowerCase()) > -1) {
-                            $(this).addClass("active");
-                        }
-                    });
+        </div>
+        <!-- Wrapper / End -->
+        <!-- Footer   -->
+        <?php include '../common/footer.php'; ?>
+        <!-- Javascript -->
+        <?php include '../common/js.php'; ?>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var str = location.href.toLowerCase();
+                $('#nav li a').each(function() {
+                    if (str.indexOf(this.href.toLowerCase()) > -1) {
+                        $(this).addClass("active");
+                    }
                 });
+            });
 
-                $('#form-dl').click(function () {
-                    window.location.href = '../docs/Grantham_Cup_2015.pdf';
-                })
+            $('#form-dl').click(function() {
+                window.location.href = '../docs/Grantham_Cup_2015.pdf';
+            })
 
-            </script>
+        </script>
 
-            <!-- Piwik --> 
-            <?php include '../common/piwik.php'; ?>
-            <!-- End Piwik Tracking Code -->
+        <!-- Piwik --> 
+        <?php include '../common/piwik.php'; ?>
+        <!-- End Piwik Tracking Code -->
     </body>
 </html>
